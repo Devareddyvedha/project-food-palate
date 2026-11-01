@@ -1,4 +1,14 @@
+
+# Recipe datasets
+data/*.csv
+
+# Python
 __pycache__/
-.venv/
-.env
 *.pyc
+.venv/
+venv/
+
+# Environment variables
+.env
+.env.*
+!.env.example
